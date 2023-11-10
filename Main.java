@@ -6,10 +6,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("BMI計算サイト");
         System.out.println();
-
-        System.out.println("身長をメートル(m)で数値のみ入力してください。");
-        System.out.println("(例)　175.5cmの場合　　1.755");
-        double height = Double.parseDouble(sc.nextLine());
+        
+	 for(int i = 0; i<=1; i++){
+       	System.out.println("身長をメートル(m)で数値のみ入力してください。");
+       	System.out.println("(例)　175.5cmの場合　　1.755");
+       	double height = Double.parseDouble(sc.nextLine());
         System.out.println("体重をキログラム(kg)で数値のみ入力してください。");
         System.out.println("(例)　124.5kgの場合　　124.5");
         double weight =  Double.parseDouble(sc.nextLine());
@@ -39,7 +40,7 @@ public class Main {
         System.out.println("    30 <   35    |   肥満(2度) | Obese class I");
         System.out.println("    35 <   40    |   肥満(3度) | Obese class II   ");
         System.out.println("    40           |   肥満(4度) | Obese class III   ");
-
+	}
 
   }
 }
